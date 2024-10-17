@@ -1,0 +1,35 @@
+.colored-text {
+    color: rgb(0, 0, 0);
+}
+
+.colored-background {
+    background-color: rgb(255, 255, 255);
+}
+
+.colored-text-2 {
+    color: rgb(0, 0, 0);
+}
+
+/* Mise en page des tableaux */
+table {
+    width: 100%; /* Le tableau prend toute la largeur disponible */
+    table-layout: fixed; /* Fixe la largeur des colonnes pour qu'elles soient égales */
+}
+
+td {
+    vertical-align: top; /* Le contenu des cellules commence en haut */
+    padding: 10px; /* Espacement interne pour les cellules */
+}
+
+.table-content {
+    width: 33%; /* Chaque colonne occupe 1/3 de la largeur du tableau */
+}
+body {
+    background-color: rgb(190, 240, 237);
+    margin: 7em;
+    padding: 1em;
+    border-radius: 25px;
+}
+html{
+    background-color: white;
+}
